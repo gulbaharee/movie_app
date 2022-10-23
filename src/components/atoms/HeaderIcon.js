@@ -6,7 +6,7 @@ import Icon from 'react-native-vector-icons/dist/MaterialIcons';
 const HeaderIcon=({iconName})=>{
     return(
         <View style={styles.container}>
-            <Icon name={iconName} size={25} />
+            <Icon style={styles.default} name={iconName} size={25} />
         </View>
     )
 }
@@ -18,5 +18,8 @@ const styles = StyleSheet.create({
         height:35,
         width:35,
 
+    },
+    default:{
+        color:'white',
     }
 })
