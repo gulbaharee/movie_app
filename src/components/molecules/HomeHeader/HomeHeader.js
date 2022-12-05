@@ -11,7 +11,7 @@ const HomeHeader = () => {
       <View style={styles.tabContainer}>
         <TabLabel placeholder="Diziler" />
         <TabLabel placeholder="Filmler" />
-        <TabLabel placeholder="Kategoriler" />
+        <TabLabel placeholder="Kategoriler" dropDown={true}/>
       </View>
     </View>
   );

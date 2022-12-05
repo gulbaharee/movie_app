@@ -13,6 +13,6 @@ export default StyleSheet.create({
     flexDirection: 'row',
     justifyContent:'space-between',
     width:250,
-    marginLeft:75,
+    marginLeft:20,
   },
 });
