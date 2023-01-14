@@ -4,6 +4,7 @@ import TabLabel from '../../atoms/TabLabel';
 import Header from '../Header/Header';
 import styles from './HomeHeader.style';
 import HeaderImage from '../../atoms/HeaderImage';
+import HomeBottom from '../../organisms/HeaderBottom/HeaderBottom';
 
 const HomeHeader = () => {
   const types=[
@@ -21,6 +22,7 @@ const HomeHeader = () => {
       <View>
         <HeaderImage types={types}/>
       </View>
+      <HomeBottom />
     </View>
   );
 };

@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <View style={styles.iconContainer}>
       <Image style={styles.netflix} source={require('../../../assets/icons/netflix.webp')} />
-      <HeaderIcon iconName="screen-share" />
-      <HeaderIcon iconName="search" />
+      <HeaderIcon iconName="screen-share" color="white"/>
+      <HeaderIcon iconName="search" color="white"/>
     </View>
   );
 };

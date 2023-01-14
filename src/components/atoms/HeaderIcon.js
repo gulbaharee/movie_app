@@ -3,10 +3,10 @@ import { View,StyleSheet } from "react-native";
 import Icon from 'react-native-vector-icons/dist/MaterialIcons';
 
 
-const HeaderIcon=({iconName})=>{
+const HeaderIcon=({iconName,color})=>{
     return(
         <View style={styles.container}>
-            <Icon style={styles.default} name={iconName} size={25} />
+            <Icon style={{color:color}} name={iconName} size={25} />
         </View>
     )
 }
@@ -19,7 +19,4 @@ const styles = StyleSheet.create({
         width:35,
 
     },
-    default:{
-        color:'white',
-    }
 })
