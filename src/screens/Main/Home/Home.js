@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, ScrollView} from 'react-native';
-import HomeHeader from '../../components/molecules/HomeHeader/HomeHeader';
+import HomeHeader from '../../../components/molecules/HomeHeader/HomeHeader';
 import styles from './Home.style';
 
 const Home = () => {

@@ -1,10 +1,9 @@
 import React from 'react';
-import Home from './src/screens/Home/Home';
-
+import MainStackNavigator from './src/navigation/MainStackNavigator';
 
 const App = () => {
   return (
-   <Home/>
+   <MainStackNavigator/>
   );
 };
 
